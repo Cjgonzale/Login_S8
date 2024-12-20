@@ -9,9 +9,5 @@ class CFormularios extends BaseController
     {
         return view("Forms/form1");
     }
-    // Este es el metodo para mostrar la vista del form2
-    public function MMostrarForm2(): string
-    {
-        return view("Forms/form2");
-    }
+
 }

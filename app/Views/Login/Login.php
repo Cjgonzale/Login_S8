@@ -16,7 +16,7 @@
             <form>
                 <input id="InpUser" type="text" placeholder="Usuario" required>
                 <input id="InpPassword" type="password" placeholder="Contraseña" required>
-                <a href="http://localhost/PDW202416/Formulario1"class="boton">Iniciar Sesión</a>
+                <a href="http://localhost/Login_S8/Formulario1"class="boton">Iniciar Sesión</a>
             </form>
         </div>
     </div>
