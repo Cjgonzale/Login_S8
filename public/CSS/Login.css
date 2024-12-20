@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Verdana', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #FF7E5F, #FFD285);
+}
+
+.login-container {
+  display: flex;
+  width: 50rem; 
+  height: 28.125rem; 
+  background: #f9f9f9;
+  box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.9375rem;
+  overflow: hidden;
+}
+
+.login-image {
+  flex: 1;
+  background: url(../Images/login.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.login-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5625rem;
+  position: relative;
+  margin-top: 10vh;
+}
+
+.login-form h2 {
+  margin-bottom: 1.5625rem;
+  color: #333;
+  position: absolute;
+  top: 12%;
+  transform: translateY(-50%);
+  font-size: 1.5rem; 
+}
+
+form {
+  margin-top: 1.875rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form input {
+  width: 85%;
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  border: 0.0625rem solid #bbb;
+  border-radius: 0.625rem;
+  transition: all 0.3s ease;
+}
+
+.login-form input:focus {
+  border-color: #ff7e5f;
+  box-shadow: 0 0 0.625rem rgba(255, 126, 95, 0.5);
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ff7e5f;
+  font-weight: bold;
+  animation: EntradaImg 1s ease-in-out;
+}
+
+@keyframes EntradaImg {
+  from {
+    opacity: 0;
+    transform: translateY(-0.625rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.boton {
+  display: inline-block;
+  padding: 0.75rem 1.5625rem;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #28a745;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.625rem;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #218838;
+}

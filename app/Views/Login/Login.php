@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="public/Css/styles.css">
+    <link rel="stylesheet" href="public/CSS/Login.css">
 </head>
 
 <body>
@@ -16,12 +16,11 @@
             <form>
                 <input id="InpUser" type="text" placeholder="Usuario" required>
                 <input id="InpPassword" type="password" placeholder="Contraseña" required>
-                <button onclick="LoginRedirect(event)">Login</button>
+                <a href="http://localhost/PDW202416/Formulario1"class="boton">Iniciar Sesión</a>
             </form>
         </div>
     </div>
 </body>
 
-<script src="public/Js/funLogin.js"></script>
 
 </html>
